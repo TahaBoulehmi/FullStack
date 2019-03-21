@@ -21,6 +21,11 @@ module.exports = {
       }
     ]
   },
+  resolve: {
+    alias: {
+      '@helpers': '../../helpers/'
+    }
+  },
 
   plugins: [
     new HtmlWebpackPlugin({
