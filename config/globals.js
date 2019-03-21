@@ -8,6 +8,7 @@
  * For more information on any of these options, check out:
  * https://sailsjs.com/config/globals
  */
+require('module-alias/register')
 
 module.exports.globals = {
 
