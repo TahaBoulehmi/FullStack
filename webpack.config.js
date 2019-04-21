@@ -5,6 +5,7 @@ module.exports = {
     entry: './views/src/index.js'
   },
   output: {
+    publicPath: '/',
     path: __dirname + '/.tmp/public',
     filename: 'bundle.js'
   },
