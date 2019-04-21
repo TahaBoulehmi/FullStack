@@ -24,7 +24,9 @@ module.exports = {
   },
   resolve: {
     alias: {
-      '@helpers': '../../helpers/'
+      '@racine': __dirname,
+      '@helpers': '@racine/helpers/',
+      '@config': '@racine/config/',
     }
   },
 
